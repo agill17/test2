@@ -7,5 +7,5 @@ spec:
   chart: foo
   version: 1.2
   releaseName: foo
-  wait: true
+  wait: false
   waitTimeout: 100
