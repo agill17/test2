@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   chart: foo
-  version: 1.0
+  version: 1.2
   releaseName: foo
   wait: true
   waitTimeout: 100
