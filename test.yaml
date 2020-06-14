@@ -1,1 +1,13 @@
-foo: bar
+  
+apiVersion: agill.apps/v1alpha1
+kind: HelmRelease
+metadata:
+  name: test-two-helmrelease
+  namespace: default
+spec:
+  chart: foo
+  version: 1.0
+  releaseName: foo
+  wait: true
+  waitTimeout: 100
+© 2020 GitHub, Inc.
