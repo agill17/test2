@@ -1,4 +1,3 @@
-  
 apiVersion: agill.apps/v1alpha1
 kind: HelmRelease
 metadata:
@@ -10,4 +9,3 @@ spec:
   releaseName: foo
   wait: true
   waitTimeout: 100
-© 2020 GitHub, Inc.
